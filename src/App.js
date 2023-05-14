@@ -68,9 +68,10 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
+          <h2 id="head">TASK SCHEDULAR</h2>
       <header>
         <form id='to-do-form' onSubmit={this.addItem}>
-            <input type="text" placeholder="Enter text"
+            <input type="text" placeholder="Enter Task"
             value={this.state.currentItem.text}
             onChange={this.handleInput} 
 

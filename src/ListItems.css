@@ -1,7 +1,7 @@
 .list{
     color: white;
     width: 300px;
-    background-color: #c7407f;
+    background-color: #db7093;
     height: 50px;
     margin: 20px auto;
     border-radius: 5px;
@@ -21,11 +21,13 @@
     
 }
 .list p input {
-    background-color: transparent;
+    background-color: initial;
     border: 0;
-    color: white;
-    font-size: 18px;
+    color: #fff;
+    font-family: Times New Roman,Times,serif;
+    font-size: 15px
 }
+
 .list p input:focus{
     outline: none;
 }

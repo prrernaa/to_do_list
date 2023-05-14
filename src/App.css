@@ -2,39 +2,61 @@ body{
   background-color: #483f5f;
 }
 
-.App{
-  background-color: #c1aef0;
+.App {
+  background-color: #f5f5f5;
+  margin: 40px auto;
   min-height: 500px;
   width: 400px;
-  margin: 40px auto;
-
 }
-#to-do-form input{
-  background-color: rgb(92, 84, 76);
+#head {
+  align-content: center;
+  border: 10px;
+  color: #f5f5f5;
+  display: flex;
+  font-family: Times New Roman,Times,serif;
+  justify-content: center;
+}
+#head, body {
+  background-color: #db7093;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+
+#to-do-form input {
+  background-color: #db7093;
   border: 0;
-  width: 200px;
-  height: 50px;
-  padding: 0 20px;
-  margin: 20px;
-  font-size: 18px;
   border-radius: 10px;
-  color: rgb(20, 19, 19);
+  color: #f5f5f5;
+  font-family: Times New Roman,Times,serif;
+  font-size: 18px;
+  height: 50px;
+  margin: 20px;
+  padding: 0 20px;
+  width: 200px;
 }
 #to-do-form input::placeholder{
-  color:rgba(209, 116, 116, 0.5)
+  color:aliceblue;
 }
-#to-do-form input::focus ,#to-do-form button::focus{
+#to-do-form input:focus ,#to-do-form button:focus{
   outline:none;
 }
-#to-do-form button{
-  height:50px;
-  width: 80px;
-  border-radius: 5px;
+#to-do-form button {
+  background-color: #db7093;
   border: 0;
-  background-color: rgb(231, 109, 52);
+  border-radius: 5px;
+  color: #f5f5f5;
   cursor: pointer;
+  font-family: Times New Roman,Times,serif;
   font-weight: bolder;
-  color:aliceblue;
-
-
+  height: 35px;
+  width: 50px;
 }
